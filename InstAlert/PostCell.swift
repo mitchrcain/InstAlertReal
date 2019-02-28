@@ -24,6 +24,8 @@ class PostCell: UITableViewCell {
         let likeTapGesture = UITapGestureRecognizer(target: self.likePost, action: #selector(fillHeart))
         likePost.addGestureRecognizer(likeTapGesture)
         likePost.isUserInteractionEnabled = true
+        
+        // this is a test
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
