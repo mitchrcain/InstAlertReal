@@ -20,7 +20,6 @@ class PostCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
         
         let likeTapGesture = UITapGestureRecognizer(target: self.likePost, action: #selector(fillHeart))
         likePost.addGestureRecognizer(likeTapGesture)
