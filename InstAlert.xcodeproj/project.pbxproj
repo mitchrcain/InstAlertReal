@@ -7,24 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B2500DC220C5F550019F4D0 /* postImage1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B2500DB220C5F550019F4D0 /* postImage1.jpg */; };
-		3B2500DE220C5F5C0019F4D0 /* postImage2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B2500DD220C5F5C0019F4D0 /* postImage2.jpg */; };
-		3B2500E0220C5F670019F4D0 /* postImage3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B2500DF220C5F670019F4D0 /* postImage3.jpg */; };
 		3BC7BC5021F0AEC20036AEC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC7BC4F21F0AEC20036AEC7 /* AppDelegate.swift */; };
 		3BC7BC5221F0AEC20036AEC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC7BC5121F0AEC20036AEC7 /* ViewController.swift */; };
 		3BC7BC5521F0AEC20036AEC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC7BC5321F0AEC20036AEC7 /* Main.storyboard */; };
 		3BC7BC5721F0AEC80036AEC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC7BC5621F0AEC80036AEC7 /* Assets.xcassets */; };
 		3BC7BC5A21F0AEC80036AEC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC7BC5821F0AEC80036AEC7 /* LaunchScreen.storyboard */; };
 		3BC7BC6221FB31D50036AEC7 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC7BC6121FB31D50036AEC7 /* PostCell.swift */; };
-		3BC7BC6721FB33F70036AEC7 /* profileImage1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BC7BC6421FB33F70036AEC7 /* profileImage1.jpg */; };
-		3BC7BC6821FB33F70036AEC7 /* profileImage3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BC7BC6521FB33F70036AEC7 /* profileImage3.jpg */; };
-		3BC7BC6921FB33F70036AEC7 /* profileImage2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BC7BC6621FB33F70036AEC7 /* profileImage2.jpg */; };
+		3BDE3C8B222E9EF400EB9DCF /* profileImage1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BDE3C8A222E9EF400EB9DCF /* profileImage1.jpg */; };
+		3BDE3C8D222E9EFD00EB9DCF /* profileImage2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BDE3C8C222E9EFD00EB9DCF /* profileImage2.jpg */; };
+		3BDE3C8F222E9F0300EB9DCF /* profileImage3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BDE3C8E222E9F0300EB9DCF /* profileImage3.jpg */; };
+		3BDE3C91222E9F0E00EB9DCF /* postImage1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BDE3C90222E9F0E00EB9DCF /* postImage1.jpg */; };
+		3BDE3C93222E9F1900EB9DCF /* postImage2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BDE3C92222E9F1900EB9DCF /* postImage2.jpg */; };
+		3BDE3C95222E9F2200EB9DCF /* postImage3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BDE3C94222E9F2200EB9DCF /* postImage3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3B2500DB220C5F550019F4D0 /* postImage1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = postImage1.jpg; sourceTree = "<group>"; };
-		3B2500DD220C5F5C0019F4D0 /* postImage2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = postImage2.jpg; sourceTree = "<group>"; };
-		3B2500DF220C5F670019F4D0 /* postImage3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = postImage3.jpg; sourceTree = "<group>"; };
 		3BC7BC4C21F0AEC10036AEC7 /* InstAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BC7BC4F21F0AEC20036AEC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BC7BC5121F0AEC20036AEC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,9 +30,12 @@
 		3BC7BC5921F0AEC80036AEC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BC7BC5B21F0AEC90036AEC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BC7BC6121FB31D50036AEC7 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
-		3BC7BC6421FB33F70036AEC7 /* profileImage1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profileImage1.jpg; sourceTree = "<group>"; };
-		3BC7BC6521FB33F70036AEC7 /* profileImage3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profileImage3.jpg; sourceTree = "<group>"; };
-		3BC7BC6621FB33F70036AEC7 /* profileImage2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profileImage2.jpg; sourceTree = "<group>"; };
+		3BDE3C8A222E9EF400EB9DCF /* profileImage1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profileImage1.jpg; sourceTree = "<group>"; };
+		3BDE3C8C222E9EFD00EB9DCF /* profileImage2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profileImage2.jpg; sourceTree = "<group>"; };
+		3BDE3C8E222E9F0300EB9DCF /* profileImage3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profileImage3.jpg; sourceTree = "<group>"; };
+		3BDE3C90222E9F0E00EB9DCF /* postImage1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = postImage1.jpg; sourceTree = "<group>"; };
+		3BDE3C92222E9F1900EB9DCF /* postImage2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = postImage2.jpg; sourceTree = "<group>"; };
+		3BDE3C94222E9F2200EB9DCF /* postImage3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = postImage3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			children = (
 				3BC7BC4E21F0AEC10036AEC7 /* InstAlert */,
 				3BC7BC4D21F0AEC10036AEC7 /* Products */,
-				3BC7BC6321FB33F70036AEC7 /* Content */,
+				3BDE3C89222E9E9800EB9DCF /* Content */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,18 +80,17 @@
 			path = InstAlert;
 			sourceTree = "<group>";
 		};
-		3BC7BC6321FB33F70036AEC7 /* Content */ = {
+		3BDE3C89222E9E9800EB9DCF /* Content */ = {
 			isa = PBXGroup;
 			children = (
-				3BC7BC6421FB33F70036AEC7 /* profileImage1.jpg */,
-				3BC7BC6621FB33F70036AEC7 /* profileImage2.jpg */,
-				3BC7BC6521FB33F70036AEC7 /* profileImage3.jpg */,
-				3B2500DB220C5F550019F4D0 /* postImage1.jpg */,
-				3B2500DD220C5F5C0019F4D0 /* postImage2.jpg */,
-				3B2500DF220C5F670019F4D0 /* postImage3.jpg */,
+				3BDE3C8A222E9EF400EB9DCF /* profileImage1.jpg */,
+				3BDE3C8C222E9EFD00EB9DCF /* profileImage2.jpg */,
+				3BDE3C8E222E9F0300EB9DCF /* profileImage3.jpg */,
+				3BDE3C90222E9F0E00EB9DCF /* postImage1.jpg */,
+				3BDE3C92222E9F1900EB9DCF /* postImage2.jpg */,
+				3BDE3C94222E9F2200EB9DCF /* postImage3.jpg */,
 			);
-			name = Content;
-			path = ../WhistleGram/Content;
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,14 +152,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BC7BC5A21F0AEC80036AEC7 /* LaunchScreen.storyboard in Resources */,
+				3BDE3C8B222E9EF400EB9DCF /* profileImage1.jpg in Resources */,
+				3BDE3C8F222E9F0300EB9DCF /* profileImage3.jpg in Resources */,
 				3BC7BC5721F0AEC80036AEC7 /* Assets.xcassets in Resources */,
-				3BC7BC6921FB33F70036AEC7 /* profileImage2.jpg in Resources */,
+				3BDE3C95222E9F2200EB9DCF /* postImage3.jpg in Resources */,
+				3BDE3C8D222E9EFD00EB9DCF /* profileImage2.jpg in Resources */,
+				3BDE3C93222E9F1900EB9DCF /* postImage2.jpg in Resources */,
+				3BDE3C91222E9F0E00EB9DCF /* postImage1.jpg in Resources */,
 				3BC7BC5521F0AEC20036AEC7 /* Main.storyboard in Resources */,
-				3BC7BC6821FB33F70036AEC7 /* profileImage3.jpg in Resources */,
-				3B2500DE220C5F5C0019F4D0 /* postImage2.jpg in Resources */,
-				3B2500E0220C5F670019F4D0 /* postImage3.jpg in Resources */,
-				3B2500DC220C5F550019F4D0 /* postImage1.jpg in Resources */,
-				3BC7BC6721FB33F70036AEC7 /* profileImage1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

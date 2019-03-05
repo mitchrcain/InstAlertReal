@@ -21,11 +21,11 @@ class PostCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        let likeTapGesture = UITapGestureRecognizer(target: self.likePost, action: #selector(fillHeart))
-        likePost.addGestureRecognizer(likeTapGesture)
-        likePost.isUserInteractionEnabled = true
+        // This is an attempt to make the like button interactive, save for later
+        //let likeTapGesture = UITapGestureRecognizer(target: self.likePost, action: #selector(fillHeart))
+        //likePost.addGestureRecognizer(likeTapGesture)
+        //likePost.isUserInteractionEnabled = true
         
-        // this is a test
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
