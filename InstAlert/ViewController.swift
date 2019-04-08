@@ -8,8 +8,12 @@
 
 import UIKit
 
+
 class ViewController: UITableViewController {
     
+    @IBOutlet weak var alertButton: UIBarButtonItem!
+    @IBOutlet weak var tracking: UIBarButtonItem!
+    @IBOutlet weak var settingsBtn: UIBarButtonItem!
     let fm = FileManager.default
     let path = Bundle.main.resourcePath!
     var profilePictures = ["profileImage1.jpg", "profileImage2.jpg", "profileImage3.jpg"]
@@ -21,12 +25,21 @@ class ViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
         // we are testing
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 3
     }
+    
+    @IBAction func alertMessage(_ sender: UIBarButtonItem) {
+        
+        if let shortcut = URL(string: "shortcuts://run-shortcut?name=InstAlert%20Test") {
+            UIApplication.shared.open(shortcut, options: [:], completionHandler: nil)
+        }
+    }
+    
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "postCell", for: indexPath) as! PostCell
@@ -38,6 +51,9 @@ class ViewController: UITableViewController {
         }
         return cell
     }
+    
+    
+    
 
 
 }
