@@ -35,11 +35,11 @@ class ViewController: UITableViewController {
     
     @IBAction func alertMessage(_ sender: UIBarButtonItem) {
         
-        if let shortcut = URL(string: "shortcuts://run-shortcut?name=InstAlert%20Test") {
+        if let shortcut = URL(string: "shortcuts://x-callback-url/run-shortcut?name=InstAlert%20Test&x-success=instalert://") {
             UIApplication.shared.open(shortcut, options: [:], completionHandler: nil)
         }
     }
-    
+
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "postCell", for: indexPath) as! PostCell
