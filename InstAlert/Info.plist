@@ -33,6 +33,10 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Can InstAlert access your location when using the app so you can send location updates to your emergency contact?</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Does InstAlert have permission to access your microphone if and only if you choose to record something?</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

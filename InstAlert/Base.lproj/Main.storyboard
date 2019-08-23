@@ -113,20 +113,26 @@
                         </connections>
                     </tableView>
                     <toolbarItems>
-                        <barButtonItem title="Item" image="messageImg" width="321" id="H2i-AK-aAE">
-                            <inset key="imageInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="22"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="ff8-ia-0u5"/>
+                        <barButtonItem title="Item" image="messageImg" width="90" id="H2i-AK-aAE">
                             <connections>
                                 <action selector="alertMessage:" destination="8e1-YV-YJ5" id="SXH-Qg-Edm"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem title="Item" image="locationImg" id="xMb-nh-dNs"/>
-                        <barButtonItem style="plain" systemItem="flexibleSpace" id="sh0-Qw-1k4"/>
-                        <barButtonItem title="Settings" image="settingsImg" id="Y95-yg-FvE"/>
+                        <barButtonItem title="Item" image="locationImg" width="90" id="xMb-nh-dNs"/>
+                        <barButtonItem title="Record Button" image="micImg" width="90" id="zDV-K9-KSn">
+                            <connections>
+                                <action selector="recordAudio:" destination="8e1-YV-YJ5" id="2SK-AX-MbC"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem title="Settings" image="settingsImg" width="90" id="Y95-yg-FvE"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="bmD-ro-A9V"/>
                     </toolbarItems>
                     <navigationItem key="navigationItem" id="y4x-9L-dxO"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="alertButton" destination="H2i-AK-aAE" id="SEz-ia-fqy"/>
+                        <outlet property="recordButton" destination="zDV-K9-KSn" id="WXX-Ym-ztR"/>
                         <outlet property="settingsBtn" destination="Y95-yg-FvE" id="HTi-Qp-gZL"/>
                         <outlet property="tracking" destination="xMb-nh-dNs" id="0ek-tg-iCn"/>
                     </connections>
@@ -163,6 +169,7 @@
         <image name="heartEmpty" width="40" height="40"/>
         <image name="locationImg" width="48" height="48"/>
         <image name="messageImg" width="48" height="48"/>
+        <image name="micImg" width="48" height="48"/>
         <image name="sendEmpty" width="48" height="48"/>
         <image name="settingsImg" width="48" height="48"/>
     </resources>
